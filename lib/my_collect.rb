@@ -4,7 +4,7 @@ def my_collect(array)
   while count<array.length
   newval=array[count]
     yield newval
-    updated.push(array[count])
+    updated.push(newval)
     count=count+1
   end
   updated
