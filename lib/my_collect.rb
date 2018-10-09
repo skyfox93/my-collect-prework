@@ -3,8 +3,7 @@ def my_collect(array)
   updated=[]
   while count<array.length
   newval=array[count]
-    yield newval
-    updated.push(newval)
+    updated.push(yeild(newval))
     count=count+1
   end
   updated
